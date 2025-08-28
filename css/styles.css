@@ -128,12 +128,15 @@
 	--shadow: none;
 }
 
+html,
+body {
+	min-height: 100vh;
+}
 html {
 	background: var(--bg);
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: cover;
 	color: var(--primary-fg);
-	height: 100%;
 	padding: 20px;
 }
 body {
