@@ -3,6 +3,7 @@ let data = [];
 let theme = localStorage.getItem('theme');
 const root = document.documentElement;
 
+console.log(data);
 const mainContent = document.querySelector('.content');
 const menus = document.querySelectorAll('.menu button');
 const themeBtn = document.querySelector('.toggle-theme-btn');
