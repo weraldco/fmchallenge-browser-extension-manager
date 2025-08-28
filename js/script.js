@@ -27,7 +27,7 @@ if (theme) {
 }
 
 async function loadData() {
-	let res = await fetch('../data.json');
+	let res = await fetch('data.json');
 	data = await res.json();
 	renderData(data);
 }
