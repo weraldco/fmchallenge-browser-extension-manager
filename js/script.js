@@ -1,6 +1,5 @@
 let activeState = 'all';
 let data = [];
-console.log(activeState);
 let theme = localStorage.getItem('theme');
 const root = document.documentElement;
 
@@ -30,7 +29,6 @@ async function loadData() {
 	let res = await fetch('../data.json');
 	data = await res.json();
 	renderData(data);
-	console.log(data);
 }
 
 function renderData(data) {
