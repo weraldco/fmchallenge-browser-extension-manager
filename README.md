@@ -90,4 +90,4 @@ Getting help is not a bad thing, I remember couple years ago, when I need to sol
 
 ## Acknowledgments
 
-My two cents to give for the fresh developer and trying to start their journey in building things, try to learn the basic and build your personal project. I just found this Front-end Mentor from the someone whose also practicing Front-end, so I try it and I like it. Keep on practice your skill, don't let your sword get rusted.
+My two cents to give for the fresh developer and trying to start their journey in building things, try to learn the basic and build your personal project. I just found this Front-end Mentor from the someone whose also practicing Front-end, so I try it and I like it. Keep on practice your skill, don't let your sword get rusted.s
