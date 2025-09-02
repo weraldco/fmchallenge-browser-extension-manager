@@ -63,9 +63,11 @@ function renderData(data) {
 		removeBtn.innerText = 'Remove';
 		const toggleBtn = document.createElement('button');
 		toggleBtn.classList.add('btn-toggle');
+		toggleBtn.setAttribute('aria-label', 'Button Toggle');
 		toggleBtn.setAttribute('id', 'on');
 		const circleDiv = document.createElement('div');
 		circleDiv.classList.add('circle');
+		circleDiv.setAttribute('aria-label', 'Circle');
 		if (d.isActive) {
 			toggleBtn.setAttribute('id', 'on');
 		} else {
