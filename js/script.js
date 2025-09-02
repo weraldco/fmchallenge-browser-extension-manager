@@ -49,8 +49,10 @@ function renderData(data) {
 		figure.appendChild(img);
 		figure.appendChild(figCaption);
 		article.appendChild(figure);
+		``;
 
 		img.setAttribute('src', d.logo);
+		img.setAttribute('alt', d.description);
 		h2.innerText = d.name;
 		p.innerHTML = d.description;
 

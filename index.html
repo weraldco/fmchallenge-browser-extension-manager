@@ -31,7 +31,7 @@
 		</style>
 	</head>
 	<body>
-		<header class="header">
+		<header>
 			<nav class="navbar">
 				<div>
 					<div class="logo">
@@ -39,23 +39,26 @@
 					</div>
 					<h1>Extensions</h1>
 				</div>
-				<button class="toggle-theme-btn"></button>
+				<button class="toggle-theme-btn" aria-label="Theme toggle"></button>
 			</nav>
 		</header>
-		<header class="sub-nav">
-			<h1>Extensions List</h1>
-			<div class="menu">
-				<button id="active" name="all">All</button>
-				<button name="active">Active</button>
-				<button name="inactive">Inactive</button>
-			</div>
-		</header>
-		<main class="content"></main>
 
-		<div class="attribution">
+		<main>
+			<nav class="sub-nav">
+				<h1>Extensions List</h1>
+				<div class="menu">
+					<button id="active" name="all">All</button>
+					<button name="active">Active</button>
+					<button name="inactive">Inactive</button>
+				</div>
+			</nav>
+			<section class="content"></section>
+		</main>
+
+		<footer class="attribution">
 			Challenge byas
 			<a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
 			Coded by <a href="https://wcoop.vercel.app">Werald Opolento</a>.
-		</div>
+		</footer>
 	</body>
 </html>
